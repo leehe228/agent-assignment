@@ -113,6 +113,12 @@ Verifier는 아래 3조건을 분리 판정하도록 구현했다.
 - `delta (ToT - CoT) = 0.000`
 - `improved_by_tot = 0/10`
 
+보고서 삽입용 그래프:
+
+![Success Rate Comparison](figures/success_rate_comparison.png)
+
+![Expression Diversity](figures/expression_diversity.png)
+
 인스턴스별 결과:
 
 | id | numbers | baseline_expr | baseline_success | tot_expr | tot_success | improved_by_tot |
